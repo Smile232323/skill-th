@@ -1,0 +1,9 @@
+{
+  "name": "skill-th",
+  "description": "Custom Claude Code plugins marketplace for skill-th.",
+  "plugins": {
+    "skill-th": {
+      "path": "."
+    }
+  }
+}
