@@ -1,9 +1,22 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "skill-th",
+  "version": "0.1.0",
   "description": "Custom Claude Code plugins marketplace for skill-th.",
-  "plugins": {
-    "skill-th": {
-      "path": "."
+  "owner": {
+    "name": "Smile232323"
+  },
+  "plugins": [
+    {
+      "name": "skill-th",
+      "description": "Academic experiment design and code writing prompt for reproducible single-variable experiments.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Smile232323"
+      },
+      "source": ".",
+      "category": "productivity",
+      "homepage": "https://github.com/Smile232323/skill-th"
     }
-  }
+  ]
 }
